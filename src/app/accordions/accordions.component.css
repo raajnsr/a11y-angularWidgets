@@ -1,0 +1,10 @@
+.accordion-select{
+  border: 1px solid black;  
+  width: 300px;
+  height: 20px;
+}
+
+.fa-angle-down, .fa-angle-up{
+    font-size: 25px;
+    color: gray;
+}

@@ -1,0 +1,19 @@
+<div role="button" class="accordion-select" tabindex="0" [attr.aria-expanded]="!isCollapsed" (click)="enableFilterIcon(i, childLevelCategoryContent?.search_results.facets.length)" (click)="isCollapsed = !isCollapsed">
+  <span class="panel-title price" role="none">
+      Accordion Sample
+       <i class='fa pull-right'
+          [class.fa-angle-down] = "i != current"
+          [class.fa-angle-up] = "i == current" ></i>
+  </span>
+</div>
+<div id="collapse1" class="panel-collapse p-l-15" [class.collapse]='current != i'>
+  <div class="p-t-10 checkbox">
+  First
+  </div>
+  <div class="p-t-10 checkbox">
+   Second
+  </div>
+  <div class="p-t-10 checkbox">
+   Third
+  </div>
+</div>
