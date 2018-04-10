@@ -2,6 +2,10 @@
   border: 1px solid black;  
   width: 300px;
   height: 20px;
+  background-color:lightblue;
+  display: inherit;
+  cursor: pointer;
+  padding: 5px; 
 }
 
 .fa-angle-down, .fa-angle-up{
